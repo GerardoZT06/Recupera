@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="../js/scripts.js"></script>
+</head>
+<body>
+
+    <button onclick="saludar()">Haz clic aquí</button>
+    <p id="mensaje"></p>
+  
+    <button onclick="saludo()">Saludo</button>
+    <input id="texto" type="text" oninput="mostrarTexto()">
+    <h1 id="mensaje"></h1>
+    <br>
+    <h1>Funcion de Imprimir un mensaje con un id</h1>
+    <p>En la sección JavaScript, se define una función llamada saludar(). Esta función, cuando se llama, realiza dos acciones:
+
+        Crea una variable llamada mensaje y le asigna el string "Hola soy: Gerardo".
+        
+        Utiliza document.getElementById("mensaje") para seleccionar el elemento HTML con el ID "mensaje". Luego utiliza .textContent para cambiar el contenido de texto de este elemento al valor de la variable mensaje, que es "Hola soy: Gerardo".
+        
+        En la sección HTML, hay un botón y un párrafo con el ID "mensaje". Cuando haces clic en el botón, se llama a la función saludar(). Como resultado, el contenido de texto del párrafo cambia a "Hola soy: Gerardo".</p>
+
+</body>
+</html>
